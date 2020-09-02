@@ -1,0 +1,241 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">Cabeça</div>
+<div class="row">
+    <div class="col-md-5">
+        Inclinação
+        <select class="btn btn-info" id="cabecaInclinacao" name="CabecaInclinacao">
+            <option value="1">Pra cima</option>
+            <option value="2" selected>Em Repouso</option>
+            <option value="3">Pra Baixo</option>
+
+        </select>
+    </div>
+    <div class="col-md-5">
+        Rotação
+        <select class="btn btn-info" id="cabecaRotacao" name="CabecaRotacao">
+            <option value="1">Rotação -90</option>
+            <option value="2">Rotação -45</option>
+            <option value="3" selected>Em Repouso</option>
+            <option value="4">Rotação 45</option>
+            <option value="5">Rotação 90</option>
+
+        </select>
+    </div>
+
+</div>
+<div class="row">Braço Direito</div>
+<div class="row">
+    <div class="col-md-5">
+        Cotovelo
+        <select class="btn btn-info" id="bracoDireitoCotovelo" name="BracoDireitoCotovelo">
+            <option value="1" selected>Repouso</option>
+            <option value="2">Levemente Contraído</option>
+            <option value="3">Contraído</option>
+            <option value="4">Fortemente Contraído</option>
+
+        </select>
+    </div>
+    <div class="col-md-5">
+        Pulso
+        <select class="btn btn-info" id="bracoDireitoPulso" name="BracoDireitoPulso">
+            <option value="1">Rotação para -90</option>
+            <option value="2">Rotação para -45</option>
+            <option value="3" selected>Em Repouso</option>
+            <option value="4">Rotação para 45</option>
+            <option value="5">Rotação para 90</option>
+            <option value="4">Rotação para 135</option>
+            <option value="5">Rotação para 180</option>
+
+        </select>
+    </div>
+
+</div>
+<div class="row">Braço Esquerdo</div>
+<div class="row">
+    <div class="col-md-5">
+        Cotovelo
+        <select class="btn btn-info" id="bracoEsquerdoCotovelo" name="BracoEsquerdoCotovelo">
+            <option value="1" selected>Repouso</option>
+            <option value="2">Levemente Contraído</option>
+            <option value="3">Contraído</option>
+            <option value="4">Fortemente Contraído</option>
+
+        </select>
+    </div>
+    <div class="col-md-5">
+        Pulso
+        <select class="btn btn-info" id="bracoEsquerdoPulso" name="BracoEsquerdoPulso">
+            <option value="1">Rotação para -90</option>
+            <option value="2">Rotação para -45</option>
+            <option value="3" selected>Em Repouso</option>
+            <option value="4">Rotação para 45</option>
+            <option value="5">Rotação para 90</option>
+            <option value="4">Rotação para 135</option>
+            <option value="5">Rotação para 180</option>
+
+        </select>
+    </div>
+
+</div>
+</br>
+<div class="row">
+    <div class="col-md-3">
+        <button class="btn btn-primary" id="move">MOVIMENTAR</button>
+    </div>
+</div>
+</br>
+<div class="row">
+    <div class="col-md-9">
+        <label style="color:red"  id="mensagem"></label>
+    </div>
+</div>
+</br>
+
+
+<h4>Posições Atuais</h4>
+<div class="row">Cabeça</div>
+<div class="row">
+    <div class="col-md-3">
+        Inclinação
+        <select class="form-control" id="cabecaInclinacaoAtual" name="CabecaInclinacao" disabled>
+            <option value="1">Pra cima</option>
+            <option value="2" selected>Em Repouso</option>
+            <option value="3">Pra Baixo</option>
+
+        </select>
+    </div>
+    <div class="col-md-3">
+        Rotação
+        <select class="form-control" id="cabecaRotacaoAtual" name="CabecaRotacao" disabled>
+            <option value="1">Rotação -90</option>
+            <option value="2">Rotação -45</option>
+            <option value="3" selected>Em Repouso</option>
+            <option value="4">Rotação 45</option>
+            <option value="5">Rotação 90</option>
+
+        </select>
+    </div>
+
+</div>
+<div class="row">Braço Direito</div>
+<div class="row">
+    <div class="col-md-3">
+        Cotovelo
+        <select class="form-control" id="bracoDireitoCotoveloAtual" name="BracoDireitoCotovelo" disabled>
+            <option value="1" selected>Repouso</option>
+            <option value="2">Levemente Contraído</option>
+            <option value="3">Contraído</option>
+            <option value="4">Fortemente Contraído</option>
+
+        </select>
+    </div>
+    <div class="col-md-3">
+        Pulso
+        <select class="form-control" id="bracoDireitoPulsoAtual" name="BracoDireitoPulso" disabled>
+            <option value="1">Rotação para -90</option>
+            <option value="2">Rotação para -45</option>
+            <option value="3" selected>Em Repouso</option>
+            <option value="4">Rotação para 45</option>
+            <option value="5">Rotação para 90</option>
+            <option value="6">Rotação para 135</option>
+            <option value="7">Rotação para 180</option>
+
+        </select>
+    </div>
+
+</div>
+<div class="row">Braço Esquerdo</div>
+<div class="row">
+    <div class="col-md-3">
+        Cotovelo
+        <select class="form-control" id="bracoEsquerdoCotoveloAtual" name="BracoEsquerdoCotovelo" disabled>
+            <option value="1" selected>Repouso</option>
+            <option value="2">Levemente Contraído</option>
+            <option value="3">Contraído</option>
+            <option value="4">Fortemente Contraído</option>
+
+        </select>
+    </div>
+    <div class="col-md-3">
+        Pulso
+        <select class="form-control" id="bracoEsquerdoPulsoAtual" name="BracoEsquerdoPulso" disabled>
+            <option value="1">Rotação para -90</option>
+            <option value="2">Rotação para -45</option>
+            <option value="3" selected>Em Repouso</option>
+            <option value="4">Rotação para 45</option>
+            <option value="5">Rotação para 90</option>
+            <option value="6">Rotação para 135</option>
+            <option value="7">Rotação para 180</option>
+
+        </select>
+    </div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#move").click(function () {
+            var proxMovRot = $("#cabecaRotacao").val();
+            var MovAtualRotacao = $("#cabecaRotacaoAtual").val();
+            var ProxMovIncli = $("#cabecaInclinacao").val();
+            var AtualMovIncli = $("#cabecaInclinacaoAtual").val();
+
+            var ProxMovCotDir = $("#bracoDireitoCotovelo").val();
+            var AtualMovCotDir = $("#bracoDireitoCotoveloAtual").val();
+            var ProxMovPulDir = $("#bracoDireitoPulso").val();
+            var AtualMovPulDir = $("#bracoDireitoPulsoAtual").val();
+
+            var ProxMovCotEsq = $("#bracoEsquerdoCotovelo").val();
+            var AtualMovCotEsq = $("#bracoEsquerdoCotoveloAtual").val();
+            var ProxMovPulEsq = $("#bracoEsquerdoPulso").val();
+            var AtualMovPulEsq = $("#bracoEsquerdoPulsoAtual").val();
+
+            var robo = {
+                Cabeca: {
+                    ProximoMovimentoRotacao: proxMovRot, MovimentoAtualRotacao: MovAtualRotacao,
+                    ProximoMovimentoInclinacao: ProxMovIncli, MovimentoAtualInclinacao: AtualMovIncli
+                },
+                BracoDireito: {
+                    ProximoMovimentoCotovelo: ProxMovCotDir, MovimentoAtualCotovelo: AtualMovCotDir,
+                    ProximoMovimentoPulso: ProxMovPulDir, MovimentoAtualPulso: AtualMovPulDir
+                },
+                BracoEsquerdo: {
+                    ProximoMovimentoCotovelo: ProxMovCotEsq, MovimentoAtualCotovelo: AtualMovCotEsq,
+                    ProximoMovimentoPulso: ProxMovPulEsq, MovimentoAtualPulso: AtualMovPulEsq
+                }
+
+            }
+            console.log(robo);
+
+            $.ajax({
+                url: "/Robo/NextMove",
+                type: "POST",
+                dataType: "json",
+                data: robo,
+                async: false,
+
+                success: function (data) {
+                    console.log(data);
+                    $("#cabecaRotacaoAtual").val(data.cabeca.movimentoAtualRotacao);
+                    $("#cabecaInclinacaoAtual").val(data.cabeca.movimentoAtualInclinacao);
+                    $("#bracoDireitoCotoveloAtual").val(data.bracoDireito.movimentoAtualCotovelo);
+                    $("#bracoDireitoPulsoAtual").val(data.bracoDireito.movimentoAtualPulso);
+                    $("#bracoEsquerdoCotoveloAtual").val(data.bracoEsquerdo.movimentoAtualCotovelo);
+                    $("#bracoEsquerdoPulsoAtual").val(data.bracoEsquerdo.movimentoAtualPulso);
+                    $("#mensagem").html();
+                    $("#mensagem").html(data.mensagem);                                
+                }
+            });
+
+        });
+
+    });
+
+
+</script>
+
