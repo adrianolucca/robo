@@ -5724,11 +5724,12 @@
       ]
     },
     "System.Runtime.Loader/4.0.0": {
-      "sha512": "Bw1F7Ap8ow3D1XK8SD6D4J5vwIUYvrlY4rbVJYARYDl2fDSgbN7ViQQYyUpkMTRCiAZFY/EDxE++zzNHxFPTfA==",
+      "sha512": "4UN78GOVU/mbDFcXkEWtetJT/sJ0yic2gGk1HSlSpWI0TDf421xnrZTDZnwNBapk1GQeYN7U1lTj/aQB1by6ow==",
       "type": "package",
       "path": "system.runtime.loader/4.0.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net462/_._",
@@ -6944,11 +6945,12 @@
       ]
     },
     "System.Xml.XPath/4.0.1": {
-      "sha512": "g2E7LnBfqaOxCY2pp64FIlh0rDLRb5tdUx9ObUhDFHZpEK0n2zaccSNLXunA9+ZblG3aHfAo2kxK2cCMyopbgg==",
+      "sha512": "UWd1H+1IJ9Wlq5nognZ/XJdyj8qPE4XufBUkAW59ijsCPjZkZe0MUzKKJFBr+ZWBe5Wq1u1d5f2CYgE93uH7DA==",
       "type": "package",
       "path": "system.xml.xpath/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6982,11 +6984,12 @@
       ]
     },
     "System.Xml.XPath.XmlDocument/4.0.1": {
-      "sha512": "Uk4WSw9EzWDEGfp27pTXAZLnasOkJFvdoOVx7/JmUjI3HkKKFolM+I5511DOadoKOHthXie5/OEyQGDyir6WOA==",
+      "sha512": "Zm2BdeanuncYs3NhCj4c9e1x3EXFzFBVv2wPEc/Dj4ZbI9R8ecLSR5frAsx4zJCPBtKQreQ7Q/KxJEohJZbfzA==",
       "type": "package",
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7041,23 +7044,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pirizao\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Adriano\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pirizao\\Desktop\\hungrypizza\\Becomex\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\Adriano\\Source\\Repos\\robo\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "C:\\Users\\pirizao\\Desktop\\hungrypizza\\Becomex\\UnitTest\\UnitTest.csproj",
-      "packagesPath": "C:\\Users\\pirizao\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pirizao\\Desktop\\hungrypizza\\Becomex\\UnitTest\\obj\\",
+      "projectPath": "C:\\Users\\Adriano\\Source\\Repos\\robo\\UnitTest\\UnitTest.csproj",
+      "packagesPath": "C:\\Users\\Adriano\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Adriano\\Source\\Repos\\robo\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pirizao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Adriano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7069,12 +7073,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\pirizao\\Desktop\\hungrypizza\\Becomex\\Modelo.Domain\\Modelo.Domain.csproj": {
-              "projectPath": "C:\\Users\\pirizao\\Desktop\\hungrypizza\\Becomex\\Modelo.Domain\\Modelo.Domain.csproj"
+            "C:\\Users\\Adriano\\Source\\Repos\\robo\\Modelo.Domain\\Modelo.Domain.csproj": {
+              "projectPath": "C:\\Users\\Adriano\\Source\\Repos\\robo\\Modelo.Domain\\Modelo.Domain.csproj"
             },
-            "C:\\Users\\pirizao\\Desktop\\hungrypizza\\Becomex\\Modelo.Service\\Modelo.Service.csproj": {
-              "projectPath": "C:\\Users\\pirizao\\Desktop\\hungrypizza\\Becomex\\Modelo.Service\\Modelo.Service.csproj"
+            "C:\\Users\\Adriano\\Source\\Repos\\robo\\Modelo.Service\\Modelo.Service.csproj": {
+              "projectPath": "C:\\Users\\Adriano\\Source\\Repos\\robo\\Modelo.Service\\Modelo.Service.csproj"
             }
           }
         }
@@ -7087,6 +7092,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
@@ -7128,7 +7134,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
