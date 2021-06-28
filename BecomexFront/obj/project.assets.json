@@ -6115,23 +6115,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pirizao\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Adriano\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pirizao\\Desktop\\hungrypizza\\Becomex\\BecomexFront\\Becomex.csproj",
+      "projectUniqueName": "C:\\Users\\Adriano\\Source\\Repos\\robo\\BecomexFront\\Becomex.csproj",
       "projectName": "Becomex",
-      "projectPath": "C:\\Users\\pirizao\\Desktop\\hungrypizza\\Becomex\\BecomexFront\\Becomex.csproj",
-      "packagesPath": "C:\\Users\\pirizao\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pirizao\\Desktop\\hungrypizza\\Becomex\\BecomexFront\\obj\\",
+      "projectPath": "C:\\Users\\Adriano\\Source\\Repos\\robo\\BecomexFront\\Becomex.csproj",
+      "packagesPath": "C:\\Users\\Adriano\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Adriano\\Source\\Repos\\robo\\BecomexFront\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pirizao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Adriano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6143,9 +6144,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\pirizao\\Desktop\\hungrypizza\\Becomex\\Modelo.Domain\\Modelo.Domain.csproj": {
-              "projectPath": "C:\\Users\\pirizao\\Desktop\\hungrypizza\\Becomex\\Modelo.Domain\\Modelo.Domain.csproj"
+            "C:\\Users\\Adriano\\Source\\Repos\\robo\\Modelo.Domain\\Modelo.Domain.csproj": {
+              "projectPath": "C:\\Users\\Adriano\\Source\\Repos\\robo\\Modelo.Domain\\Modelo.Domain.csproj"
             }
           }
         }
@@ -6158,6 +6160,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
@@ -6182,7 +6185,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
